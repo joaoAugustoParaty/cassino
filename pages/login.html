@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style-login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Acesse Sua Conta</h2>
+            <form action="#" method="post">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+            <!-- Formulário de registro -->
+            <form action="#">
+                <h3>Registre-se</h3>
+                <label for="register-fullname">Nome Completo:</label>
+                <input type="text" id="register-fullname" name="register-fullname" required>
+                <label for="register-email">E-mail:</label>
+                <input type="email" id="register-email" name="register-email" required>
+                <label for="register-password">Senha:</label>
+                <input type="password" id="register-password" name="register-password" required>
+                <label for="register-confirm-password">Repita a Senha:</label>
+                <input type="password" id="register-confirm-password" name="register-confirm-password" required>
+                <label>
+                    <input type="checkbox" name="accept-terms" required>
+                    Aceito os termos
+                </label>
+                <button type="submit">Registrar</button>
+            </form>
+            <!-- Fim do formulário de registro -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 SlotsMaster - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

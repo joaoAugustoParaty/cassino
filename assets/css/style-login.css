@@ -14,7 +14,8 @@ label {
 }
 
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="text"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -34,3 +35,4 @@ button {
 button:hover {
     background-color: #e67e22;
 }
+

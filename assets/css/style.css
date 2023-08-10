@@ -1,0 +1,103 @@
+/* Estilos para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #444;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para a seção de slots */
+
+
+#slots {
+    text-align: center;
+}
+
+.slots-container {
+    display: flex;
+    justify-content: center; /* Adicione esta linha para centralizar horizontalmente */
+    align-items: center; /* Adicione esta linha para centralizar verticalmente */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.slot {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.emoji {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
